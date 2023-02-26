@@ -1,0 +1,13 @@
+[package]
+name = "rockyfy"
+version = "1.0.0"
+authors = ["Lioness100 <jchickmm2@gmail.com>"]
+edition = "2021"
+description = "CLI tool that plays the iconic \"Gonna Fly Now\" theme song from Rocky during long-running commands, keeping you motivated and engaged."
+repository = "https://github.com/Lioness100/rockyfy"
+license = "Apache-2.0"
+keywords = ["audio", "music", "fun"]
+categories = ["command-line-utilities", "games", "multimedia::audio"]
+
+[dependencies]
+rodio = { version = "0.17.0", default-features = false, features = ["mp3"] }
